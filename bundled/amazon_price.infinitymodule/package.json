@@ -5,7 +5,7 @@
   "website": "https://infinitydashboard.com/",
   "category": "finance",
   "bundleID": "com.fiplab.amazonprice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "hasNotifications": true,
   "minimumRefreshInterval": 1800,
 
