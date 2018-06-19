@@ -1,0 +1,75 @@
+{
+  "name": "Work Day",
+  "version": "1.0.0",
+  "description": "This will return the percentage the work day done.",
+  "main": "main.js",
+  "scripts": {
+  },
+  "keywords": [
+    "Infinity",
+    "Dashboard",
+    "Node.js"
+  ],
+  "author": "Richard Guay",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "bundleID": "com.customct.infinitydashboard.workday",
+  "website": "http://customct.com",
+  "refreshInterval": 3600,
+  "category": "Lifestyle",
+  "user_options": [
+    {
+      "title": "Workday Start Time",
+      "name": "wdaystart",
+      "type": "date",
+      "options": {
+        "allowsDate": false,
+        "allowsTime": true
+      },
+      "required": true
+    },
+    {
+      "title": "Workday End Time",
+      "name": "wdayend",
+      "type": "date",
+      "options": {
+        "allowsDate": false,
+        "allowsTime": true
+      },
+      "required": true
+    },
+    {
+      "title": "Lunch Break Time",
+      "name": "wlunch",
+      "type": "date",
+      "options": {
+        "allowsDate": false,
+        "allowsTime": true
+      },
+      "required": true
+    },
+    {
+      "title": "Lunch Break Length",
+      "name": "lunchbreaklen",
+      "type": "number",
+      "options": {
+        "min": 1,
+        "max": 4
+      },
+      "default": 1,
+      "required": true
+    },
+    {
+      "title": "Work Day Length",
+      "name": "workDayLength",
+      "type": "number",
+      "options": {
+        "min": 1,
+        "max": 24
+      },
+      "default": 8,
+      "required": true
+    }
+  ]
+}
