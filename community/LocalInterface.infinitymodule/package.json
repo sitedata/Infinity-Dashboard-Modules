@@ -1,0 +1,30 @@
+{
+  "name": "Local Interface Address",
+  "version": "1.0.0",
+  "description": "This will show the IP address for a local interface.",
+  "main": "main.js",
+  "scripts": {
+  },
+  "keywords": [
+    "Infinity",
+    "Dashboard",
+    "Node.js"
+  ],
+  "author": "Richard Guay",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "bundleID": "com.customct.infinitydashboard.localinterface",
+  "website": "http://customct.com",
+  "refreshInterval": 3600,
+  "category": "Utilities",
+  "user_options": [
+    {
+      "title": "Interface",
+      "name": "interface",
+      "type": "string",
+      "default": "en0",
+      "required": true
+    }
+  ]
+}
