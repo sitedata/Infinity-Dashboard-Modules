@@ -18,6 +18,7 @@
   "website": "http://customct.com",
   "refreshInterval": 3600,
   "category": "Utilities",
+  "hasNotifications": true,
   "user_options": [
     {
       "title": "Interface",
