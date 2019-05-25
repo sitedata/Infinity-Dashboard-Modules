@@ -5,7 +5,8 @@ const nightmare = Nightmare({
   waitTimeout: 5000
 })
 
-let url = 'https://www.reddit.com/user/' + fiplab.arguments.username;
+//Use the old style
+let url = 'https://old.reddit.com/user/' + fiplab.arguments.username;
 
 nightmare
 .goto(url)

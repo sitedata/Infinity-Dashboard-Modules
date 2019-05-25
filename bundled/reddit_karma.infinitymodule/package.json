@@ -5,7 +5,7 @@
   "website": "https://infinitydashboard.com/",
   "category": "social",
   "bundleID": "com.fiplab.redditkarma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumRefreshInterval": 600,
 
   "user_options": [
