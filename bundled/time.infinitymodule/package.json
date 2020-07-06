@@ -26,6 +26,6 @@
     }
   ],
   "dependencies": {
-    "moment-timezone": "^0.5.16"
+    "moment-timezone": "^0.5.31"
   }
 }
