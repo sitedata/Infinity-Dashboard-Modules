@@ -26,6 +26,6 @@
   ],
 
   "dependencies": {
-    "mailchimp": "^1.2.0"
+    "mailchimp": "^1.2.1"
   }
 }
