@@ -161,6 +161,6 @@
     }
   ],
   "dependencies": {
-    "currency-formatter": "^1.4.2"
+    "currency-formatter": "^1.5.5"
   }
 }
