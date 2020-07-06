@@ -7,7 +7,7 @@
   "bundleID": "com.fiplab.wordoftheday",
   "version": "1.0.0",
   "dependencies": {
-    "rss-parser": "^3.1.3"
+    "rss-parser": "^3.8.0"
   },
 
   "minimumRefreshInterval": 3600,
